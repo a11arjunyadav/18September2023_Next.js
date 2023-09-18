@@ -1,5 +1,9 @@
  // 1. Importaine area
 import Head from 'next/head'
+import Header from './Component/Header';
+import Aside from './Component/Aside';
+import Section from './Component/Section';
+import Footer from './Component/Footer';
 // Important  'some location';
 
 // function defination area
@@ -10,24 +14,12 @@ import Head from 'next/head'
         <title>Wellcom To My first Next Application</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header>
-          <div>Header Component</div>
-          <div>980*140</div>
-      </header>
+      <Header />
       <main>
-          <aside>
-              <div>Header Component</div>
-              <div>980*270</div>
-          </aside>
-          <section>
-              <div>Header Component</div>
-              <div>980*700</div>
-          </section>
+          <Aside />
+          <Section />
       </main>
-      <footer>
-          <div>Header Component</div>
-          <div>980*70</div>
-      </footer>
+      <Footer />
     </>
   )
 }
